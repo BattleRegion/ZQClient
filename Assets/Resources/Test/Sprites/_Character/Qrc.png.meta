@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 8be02d0dc6655644292d026d0a6d6e3c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Thigh1
+    21300002: Hip
+    21300004: Hip
+    21300006: Hip
+    21300008: Hip
+    21300010: Thigh0
+    21300012: Thigh1
+    21300014: Thigh0
+    21300016: Thigh0
+    21300018: Thigh0
+    21300020: Chest
+    21300022: Chest
+    21300024: Chest
+    21300026: Arm1
+    21300028: Arm1
+    21300030: Arm0
+    21300032: Arm0
+    21300034: Weapon
+    21300036: Arm0
+    21300038: Arm0
+    21300040: Chest
+    21300042: Shoulder1
+    21300044: Shoulder0
+    21300046: Weapon
+    21300048: Shoulder1
+    21300050: Shoulder0
+    21300052: Weapon
+    21300054: Weapon
+    21300056: Shoulder0
+    21300058: Shoulder0
+    21300060: Head
+    21300062: Head
+    21300064: Head
+    21300066: Head
+    21300068: Eye
+    21300070: Eye
+    21300072: Shadow
+    21300074: FX
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Thigh1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 983
+        width: 38
+        height: 33
+      alignment: 9
+      pivot: {x: .872157276, y: .84348923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 982
+        width: 81
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 980
+        width: 85
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 978
+        width: 85
+        height: 36
+      alignment: 9
+      pivot: {x: .495294183, y: .566667318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 978
+        width: 89
+        height: 36
+      alignment: 9
+      pivot: {x: .495505691, y: .644444764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 914
+        width: 61
+        height: 44
+      alignment: 9
+      pivot: {x: .858687222, y: .908018649}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 912
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: .173999891, y: .868172944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 907
+        width: 37
+        height: 51
+      alignment: 9
+      pivot: {x: .302883655, y: .948269725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 906
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: .257474273, y: .915374756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 904
+        width: 43
+        height: 54
+      alignment: 9
+      pivot: {x: .202555105, y: .909941494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chest
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 891
+        width: 86
+        height: 69
+      alignment: 9
+      pivot: {x: .489596695, y: .129617438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chest
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 801
+        width: 79
+        height: 71
+      alignment: 9
+      pivot: {x: .473637342, y: .111336723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chest
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 800
+        width: 85
+        height: 72
+      alignment: 9
+      pivot: {x: .493874401, y: .104682073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 800
+        width: 65
+        height: 72
+      alignment: 9
+      pivot: {x: .812396705, y: .815771341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 795
+        width: 58
+        height: 77
+      alignment: 9
+      pivot: {x: .227699548, y: .831329763}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm0
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 789
+        width: 78
+        height: 83
+      alignment: 9
+      pivot: {x: .808997512, y: .795432925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 687
+        width: 68
+        height: 82
+      alignment: 9
+      pivot: {x: .26646173, y: .805501044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 682
+        width: 124
+        height: 87
+      alignment: 9
+      pivot: {x: .779588044, y: .255762547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 682
+        width: 69
+        height: 87
+      alignment: 9
+      pivot: {x: .192047998, y: .798227608}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm0
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 681
+        width: 65
+        height: 88
+      alignment: 9
+      pivot: {x: .245359913, y: .827880859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chest
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 572
+        width: 96
+        height: 89
+      alignment: 9
+      pivot: {x: .490167379, y: .113158494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 564
+        width: 118
+        height: 97
+      alignment: 9
+      pivot: {x: .346140981, y: .334916264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 564
+        width: 119
+        height: 97
+      alignment: 9
+      pivot: {x: .563585281, y: .324484915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 561
+        width: 88
+        height: 100
+      alignment: 9
+      pivot: {x: .248498395, y: .258557737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 440
+        width: 63
+        height: 101
+      alignment: 9
+      pivot: {x: .78620249, y: .493263155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 444
+        width: 94
+        height: 97
+      alignment: 9
+      pivot: {x: .326440215, y: .462624133}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 438
+        width: 94
+        height: 103
+      alignment: 9
+      pivot: {x: .762824535, y: .231823668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Weapon
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 436
+        width: 89
+        height: 105
+      alignment: 9
+      pivot: {x: .248088703, y: .253260434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 314
+        width: 108
+        height: 104
+      alignment: 9
+      pivot: {x: .343819201, y: .604945242}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shoulder0
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 311
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 137
+        height: 132
+      alignment: 9
+      pivot: {x: .519933105, y: .200020999}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 143
+        height: 137
+      alignment: 9
+      pivot: {x: .474537551, y: .264124185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 126
+        width: 120
+        height: 132
+      alignment: 9
+      pivot: {x: .488621384, y: .193124712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 116
+        width: 121
+        height: 144
+      alignment: 9
+      pivot: {x: .499999762, y: .26926899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 946
+        width: 87
+        height: 21
+      alignment: 9
+      pivot: {x: .48759374, y: .17739141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 917
+        width: 75
+        height: 25
+      alignment: 9
+      pivot: {x: .382136226, y: .274270028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 681
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 255
+        width: 108
+        height: 202
+      alignment: 9
+      pivot: {x: 1.11806464, y: .513141572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

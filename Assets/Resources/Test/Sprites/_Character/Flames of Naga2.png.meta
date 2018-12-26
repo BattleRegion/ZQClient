@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 06b2649df0ac39643b684a93e9251b30
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Mustache01
+    21300002: Eye
+    21300004: Mustache02
+    21300006: Eye
+    21300008: Mustache03
+    21300010: Ear
+    21300012: Hair
+    21300014: Mustache04
+    21300016: Hair
+    21300018: Tail02
+    21300020: Mustache05
+    21300022: Hair
+    21300024: Mustache06
+    21300026: Ear
+    21300028: Tail01
+    21300030: Mustache07
+    21300032: Mustache08
+    21300034: Tail
+    21300036: Mustache09
+    21300038: Ear
+    21300040: Mustache10
+    21300042: Ear
+    21300044: Arm
+    21300046: Arm
+    21300048: Mustache11
+    21300050: Mustache12
+    21300052: Mustache13
+    21300054: Hip
+    21300056: Mustache14
+    21300058: Hip
+    21300060: Arm
+    21300062: Arm
+    21300064: Arm
+    21300066: Ear
+    21300068: Arm
+    21300070: Tail
+    21300072: Forearm
+    21300074: Forearm
+    21300076: Hip
+    21300078: Arm
+    21300080: Forearm
+    21300082: Forearm
+    21300084: Forearm
+    21300086: Forearm
+    21300088: Forearm
+    21300090: Body
+    21300092: Body
+    21300094: S513A
+    21300096: Body
+    21300098: Body
+    21300100: Head
+    21300102: Head
+    21300104: Head
+    21300106: Head
+    21300108: Shadow
+    21300110: Tail01
+    21300112: Tail02
+    21300114: Ear
+    21300116: FX
+    21300118: S513B
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Mustache01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 706
+        width: 21
+        height: 34
+      alignment: 9
+      pivot: {x: .379945129, y: .747174442}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 701
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache02
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 696
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: .399518877, y: .791270852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 695
+        width: 84
+        height: 45
+      alignment: 9
+      pivot: {x: .401489615, y: .459136277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache03
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 695
+        width: 26
+        height: 45
+      alignment: 9
+      pivot: {x: .467677772, y: .747447371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 690
+        width: 33
+        height: 50
+      alignment: 9
+      pivot: {x: .789442599, y: .404483646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 689
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: .25022614, y: .423598349}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache04
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 688
+        width: 30
+        height: 52
+      alignment: 9
+      pivot: {x: .424256384, y: .825313866}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 686
+        width: 47
+        height: 54
+      alignment: 9
+      pivot: {x: .645081878, y: .256470859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail02
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 684
+        width: 59
+        height: 56
+      alignment: 9
+      pivot: {x: .769185722, y: .293741494}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache05
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 684
+        width: 36
+        height: 56
+      alignment: 9
+      pivot: {x: .345705658, y: .766008675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 682
+        width: 46
+        height: 58
+      alignment: 9
+      pivot: {x: .224705577, y: .332049131}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache06
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 681
+        width: 27
+        height: 59
+      alignment: 9
+      pivot: {x: .378436059, y: .833789885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 681
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: .0973570794, y: .690801084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail01
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 680
+        width: 78
+        height: 60
+      alignment: 9
+      pivot: {x: .268620431, y: .463904828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache07
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 678
+        width: 31
+        height: 62
+      alignment: 9
+      pivot: {x: .597734988, y: .842072546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache08
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 674
+        width: 36
+        height: 66
+      alignment: 9
+      pivot: {x: .647282898, y: .85577023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 672
+        width: 122
+        height: 68
+      alignment: 9
+      pivot: {x: .819532573, y: .691092968}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache09
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 671
+        width: 41
+        height: 69
+      alignment: 9
+      pivot: {x: .339889884, y: .869575858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 671
+        width: 58
+        height: 69
+      alignment: 9
+      pivot: {x: .841128647, y: .524719238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 601
+        width: 41
+        height: 69
+      alignment: 9
+      pivot: {x: .66011101, y: .854938865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 600
+        width: 58
+        height: 70
+      alignment: 9
+      pivot: {x: .129464313, y: .524366081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 600
+        width: 52
+        height: 70
+      alignment: 9
+      pivot: {x: .652711451, y: .716572762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 597
+        width: 67
+        height: 73
+      alignment: 9
+      pivot: {x: .769368172, y: .529668093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 596
+        width: 28
+        height: 74
+      alignment: 9
+      pivot: {x: .319656372, y: .861663818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 594
+        width: 38
+        height: 76
+      alignment: 9
+      pivot: {x: .4335576, y: .852146327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 593
+        width: 32
+        height: 77
+      alignment: 9
+      pivot: {x: .381649017, y: .82461983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 591
+        width: 99
+        height: 79
+      alignment: 9
+      pivot: {x: .667715669, y: .317239106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mustache14
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 591
+        width: 40
+        height: 79
+      alignment: 9
+      pivot: {x: .373759449, y: .886713326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 590
+        width: 96
+        height: 80
+      alignment: 9
+      pivot: {x: .354706436, y: .205780029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 588
+        width: 67
+        height: 82
+      alignment: 9
+      pivot: {x: .241406798, y: .588038027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 588
+        width: 77
+        height: 82
+      alignment: 9
+      pivot: {x: .800013185, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 588
+        width: 83
+        height: 82
+      alignment: 9
+      pivot: {x: .2912561, y: .517607927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 584
+        width: 67
+        height: 86
+      alignment: 9
+      pivot: {x: .275975466, y: .49603343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 581
+        width: 77
+        height: 89
+      alignment: 9
+      pivot: {x: .743760943, y: .540556848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 486
+        width: 141
+        height: 94
+      alignment: 9
+      pivot: {x: .315101117, y: .293794036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 483
+        width: 89
+        height: 97
+      alignment: 9
+      pivot: {x: .82445246, y: .827463031}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 480
+        width: 78
+        height: 100
+      alignment: 9
+      pivot: {x: .583296955, y: .868172586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 519
+        width: 93
+        height: 61
+      alignment: 9
+      pivot: {x: .500408888, y: .682064891}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 475
+        width: 68
+        height: 105
+      alignment: 9
+      pivot: {x: .31952399, y: .59625417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 470
+        width: 121
+        height: 110
+      alignment: 9
+      pivot: {x: .321015149, y: .854390621}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 459
+        width: 84
+        height: 121
+      alignment: 9
+      pivot: {x: .508594334, y: .881834924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 457
+        width: 100
+        height: 123
+      alignment: 9
+      pivot: {x: .482564688, y: .868550122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 455
+        width: 78
+        height: 125
+      alignment: 9
+      pivot: {x: .518510878, y: .840739727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 442
+        width: 107
+        height: 138
+      alignment: 9
+      pivot: {x: .533734739, y: .819103718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 286
+        width: 147
+        height: 155
+      alignment: 9
+      pivot: {x: .431247056, y: .173977956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 279
+        width: 155
+        height: 162
+      alignment: 9
+      pivot: {x: .360276252, y: .174696743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S513A
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 269
+        width: 185
+        height: 172
+      alignment: 9
+      pivot: {x: .628461838, y: .34926784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 266
+        width: 147
+        height: 175
+      alignment: 9
+      pivot: {x: .509822071, y: .169985875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 265
+        width: 172
+        height: 176
+      alignment: 9
+      pivot: {x: .479014546, y: .249793828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 237
+        width: 202
+        height: 204
+      alignment: 9
+      pivot: {x: .491264731, y: .110772677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 29
+        width: 118
+        height: 207
+      alignment: 9
+      pivot: {x: .490031004, y: .164717197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7
+        width: 206
+        height: 229
+      alignment: 9
+      pivot: {x: .502855122, y: .376716346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1
+        width: 158
+        height: 235
+      alignment: 9
+      pivot: {x: .492554873, y: .342321575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 166
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail01
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 457
+        width: 96
+        height: 59
+      alignment: 9
+      pivot: {x: .766602814, y: .705235898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail02
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 199
+        width: 84
+        height: 57
+      alignment: 9
+      pivot: {x: .276261836, y: .670038879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 719
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 287
+        height: 229
+      alignment: 9
+      pivot: {x: .84746933, y: .110928424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S513B
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 183
+        height: 169
+      alignment: 9
+      pivot: {x: .380435139, y: .356901854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

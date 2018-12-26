@@ -1,0 +1,1809 @@
+fileFormatVersion: 2
+guid: 467d052f37a4ff547b491f337f0c84ff
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Attribute_Blue.png
+    21300002: Attribute_Brown.png
+    21300004: Attribute_Green.png
+    21300006: Attribute_Red.png
+    21300008: backHp.png
+    21300010: BompLine.png
+    21300012: BompTag.png
+    21300014: dungeon_icon.png
+    21300016: ElementHp.png
+    21300018: eliminate_icon.png
+    21300020: EnemyTag.png
+    21300022: border_grey.png
+    21300024: border_blue.png
+    21300026: ff3-21 (6).png
+    21300028: border_gold.png
+    21300030: find.png
+    21300032: miss.png
+    21300034: monster_runaway.png
+    21300036: pveNewCell/1.png
+    21300038: pveNewCell/2.png
+    21300040: pveNewCell/3.png
+    21300042: pveNewCell/4.png
+    21300044: pveNewCell/AlphaMask.png
+    21300046: pveNewCell/blue001.png
+    21300048: pveNewCell/bluebg001.png
+    21300050: pveNewCell/Box001.png
+    21300052: pveNewCell/charLight001.png
+    21300054: pveNewCell/Egg001.png
+    21300056: pveNewCell/Gold001.png
+    21300058: pveNewCell/itemCell001.png
+    21300060: pveNewCell/pve_exit.png
+    21300062: pveNewCell/pveboss.png
+    21300064: character_left.png
+    21300066: character_right.png
+    21300068: pveNewCell/pveF_003.png
+    21300070: characterborder_right.png
+    21300072: characterborder_left.png
+    21300074: pveNewCellpveF_power.png
+    21300076: pveNewCell/pvePowerBg.png
+    21300078: pveNewCell/pvePowervalue.png
+    21300080: turn1.png
+    21300082: turn2.png
+    21300084: UI/0 (1).png
+    21300086: UI/0 (10).png
+    21300088: UI/0 (11).png
+    21300090: UI/0 (2).png
+    21300092: UI/0 (3).png
+    21300094: UI/0 (4).png
+    21300096: UI/0 (5).png
+    21300098: UI/0 (6).png
+    21300100: UI/0 (7).png
+    21300102: UI/0 (8).png
+    21300104: UI/0 (9).png
+    21300106: UI/1 (1).png
+    21300108: UI/1 (11).png
+    21300110: UI/1 (12).png
+    21300112: UI/1 (13).png
+    21300114: UI/1 (14).png
+    21300116: UI/1 (15).png
+    21300118: UI/1 (16).png
+    21300120: UI/1 (17).png
+    21300122: UI/1 (18).png
+    21300124: UI/1 (19).png
+    21300126: UI/2 (1).png
+    21300128: UI/2 (10).png
+    21300130: UI/2 (11).png
+    21300132: UI/2 (2).png
+    21300134: UI/2 (3).png
+    21300136: UI/2 (4).png
+    21300138: UI/2 (5).png
+    21300140: UI/2 (6).png
+    21300142: UI/2 (7).png
+    21300144: UI/2 (8).png
+    21300146: UI/2 (9).png
+    21300148: UI/-32.png
+    21300150: UI/-33.png
+    21300152: UI/-34.png
+    21300154: UI/-35.png
+    21300156: UI/-36.png
+    21300158: UI/-37.png
+    21300160: UI/-38.png
+    21300162: UI/-39.png
+    21300164: UI/-40.png
+    21300166: UI/-41.png
+    21300168: UI/-43.png
+    21300170: UI/-44.png
+    21300172: UI/-45.png
+    21300174: UI/-46.png
+    21300176: UI/-47.png
+    21300178: UI/-48.png
+    21300180: UI/-49.png
+    21300182: UI/-50.png
+    21300184: UI/-51.png
+    21300186: UI/-52.png
+    21300188: UI/-53.png
+    21300190: UI/-54.png
+    21300192: UI/-55.png
+    21300194: UI/-56.png
+    21300196: UI/-57.png
+    21300198: UI/-58.png
+    21300200: UI/-59.png
+    21300202: UI/-60.png
+    21300204: UI/-61.png
+    21300206: UI/-62.png
+    21300208: UI/-73.png
+    21300210: UI/-74.png
+    21300212: UI/-75.png
+    21300214: UI/-76.png
+    21300216: UI/-77.png
+    21300218: UI/-78.png
+    21300220: UI/-79.png
+    21300222: UI/-80.png
+    21300224: UI/-81.png
+    21300226: UI/-82.png
+    21300228: UI/-83.png
+    21300230: UI/-84.png
+    21300232: UI/-85.png
+    21300234: UI/-86.png
+    21300236: UI/-87.png
+    21300238: UI/-88.png
+    21300240: UI/-89.png
+    21300242: UI/-90.png
+    21300244: UI/-91.png
+    21300246: UI/-92.png
+    21300248: UI/-93.png
+    21300250: UI/-94.png
+    21300252: UI/-95.png
+    21300254: UI/-96.png
+    21300256: UI/g (1).png
+    21300258: UI/g (10).png
+    21300260: UI/g (2).png
+    21300262: UI/g (3).png
+    21300264: UI/g (4).png
+    21300266: UI/g (5).png
+    21300268: UI/g (6).png
+    21300270: UI/g (7).png
+    21300272: UI/g (8).png
+    21300274: UI/g (9).png
+    21300276: UI/g(1).png
+    21300278: UI/g(10).png
+    21300280: UI/g(2).png
+    21300282: UI/g(3).png
+    21300284: UI/g(4).png
+    21300286: UI/g(5).png
+    21300288: UI/g(6).png
+    21300290: UI/g(7).png
+    21300292: UI/g(8).png
+    21300294: UI/g(9).png
+    21300296: UI/xt.png
+    21300298: UI/xt1.png
+    21300300: UI/xt2.png
+    21300302: UI/xt4.png
+    21300304: UI/Z (1).png
+    21300306: UI/Z (7).png
+    21300308: UI/Z (8).png
+    21300310: ElementHp_Green.png
+    21300312: ElementHp_Blue.png
+    21300314: ElementHp_Red.png
+    21300316: border_purple.png
+    21300318: border_green.png
+    21300320: help_text.png
+    21300322: floor_text.png
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Attribute_Blue.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attribute_Brown.png
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 832
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attribute_Green.png
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 832
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Attribute_Red.png
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 832
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backHp.png
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 499
+        width: 80
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BompLine.png
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 832
+        width: 551
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BompTag.png
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 801
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dungeon_icon.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 395
+        width: 208
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ElementHp.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 83
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: eliminate_icon.png
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 477
+        width: 142
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EnemyTag.png
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 761
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: border_grey.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 284
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: border_blue.png
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 284
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: border_purple.png
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 284
+        width: 105
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: border_gold.png
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 284
+        width: 104
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: find.png
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 331
+        width: 373
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miss.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 88
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: monster_runaway.png
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 241
+        width: 142
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/1.png
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 236
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/2.png
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 236
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/3.png
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 236
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/4.png
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 236
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/AlphaMask.png
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 265
+        width: 85
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/blue001.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 211
+        width: 440
+        height: 25
+      alignment: 9
+      pivot: {x: .0199999996, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/bluebg001.png
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 211
+        width: 440
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/Box001.png
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 250
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/charLight001.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/Egg001.png
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 250
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/Gold001.png
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 250
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/itemCell001.png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 98
+        width: 116
+        height: 113
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/pve_exit.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 71
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/pveboss.png
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 40
+        width: 64
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_left.png
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 86
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: character_right.png
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 86
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterborder_right.png
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 86
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: characterborder_left.png
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 81
+        width: 120
+        height: 130
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCellpveF_power.png
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 196
+        width: 88
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/pvePowerBg.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 440
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: pveNewCell/pvePowervalue.png
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 62
+        width: 440
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn1.png
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 252
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: turn2.png
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 251
+        height: 62
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (1).png
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 772
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (10).png
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 771
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (11).png
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 771
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (2).png
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 771
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (3).png
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 771
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (4).png
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 771
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (5).png
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 772
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (6).png
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 772
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (7).png
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 771
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (8).png
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 772
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/0 (9).png
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 771
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (1).png
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (11).png
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (12).png
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (13).png
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (14).png
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (15).png
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (16).png
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (17).png
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (18).png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/1 (19).png
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 767
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (1).png
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 776
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (10).png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (11).png
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (2).png
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (3).png
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (4).png
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (5).png
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (6).png
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (7).png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (8).png
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/2 (9).png
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 736
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-32.png
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 578
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-33.png
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 578
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-34.png
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 577
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-35.png
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 578
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-36.png
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 578
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-37.png
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 577
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-38.png
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 579
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-39.png
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 577
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-40.png
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 577
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-41.png
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 577
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-43.png
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 573
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-44.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-45.png
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 516
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-46.png
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 518
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-47.png
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 516
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-48.png
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 516
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-49.png
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 518
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-50.png
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 516
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-51.png
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 517
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-52.png
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 516
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-53.png
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 518
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-54.png
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 518
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-55.png
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 516
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-56.png
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 518
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-57.png
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 516
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-58.png
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 516
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-59.png
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 518
+        width: 49
+        height: 55
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-60.png
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 516
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-61.png
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 517
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-62.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-73.png
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 501
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-74.png
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 507
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-75.png
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-76.png
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 494
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-77.png
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-78.png
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-79.png
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-80.png
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-81.png
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-82.png
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-83.png
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-84.png
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-85.png
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 501
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-86.png
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 506
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-87.png
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 494
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-88.png
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 493
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-89.png
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 493
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-90.png
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-91.png
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-92.png
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-93.png
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 494
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-94.png
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 493
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-95.png
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 493
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/-96.png
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 493
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (1).png
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 709
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (10).png
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 709
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (2).png
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 710
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (3).png
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 710
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (4).png
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 709
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (5).png
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 710
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (6).png
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 709
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (7).png
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 709
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (8).png
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 710
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g (9).png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(1).png
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(10).png
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(2).png
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(3).png
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(4).png
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(5).png
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(6).png
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(7).png
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(8).png
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/g(9).png
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 659
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/xt.png
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 683
+        width: 435
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/xt1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 631
+        width: 435
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/xt2.png
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 628
+        width: 437
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/xt4.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 602
+        width: 435
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/Z (1).png
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 720
+        width: 131
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/Z (7).png
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 726
+        width: 119
+        height: 35
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: UI/Z (8).png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 721
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ElementHp_Green.png
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 784
+        width: 80
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ElementHp_Blue.png
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 784
+        width: 80
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ElementHp_Red.png
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 785
+        width: 79
+        height: 17
+      alignment: 4
+      pivot: {x: 0, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: border_green.png
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 387
+        width: 105
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: help_text.png
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 30
+        width: 82
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: floor_text.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 72
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

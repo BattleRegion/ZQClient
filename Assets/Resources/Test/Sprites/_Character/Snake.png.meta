@@ -1,0 +1,301 @@
+fileFormatVersion: 2
+guid: 5b52983050f97eb4085c25fc844ebae7
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Head
+    21300004: Head
+    21300006: Body
+    21300008: Body
+    21300010: Head
+    21300012: Tougue
+    21300014: Face
+    21300016: Tail
+    21300018: Jaw
+    21300020: Jaw
+    21300022: Eye
+    21300024: Eye
+    21300026: Body
+    21300028: Face
+    21300030: Body
+    21300032: Tail
+    21300034: Tail
+    21300036: Tail
+    21300038: Shadow
+    21300040: FX
+    21300042: FX
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 200
+        width: 158
+        height: 161
+      alignment: 9
+      pivot: {x: .493515462, y: .0831771791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 214
+        width: 158
+        height: 147
+      alignment: 9
+      pivot: {x: .5, y: .081813477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 209
+        width: 151
+        height: 152
+      alignment: 9
+      pivot: {x: .48982209, y: .0955696106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 309
+        width: 33
+        height: 52
+      alignment: 9
+      pivot: {x: .585466802, y: .16553086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 257
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: .514689445, y: .168189555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 139
+        height: 149
+      alignment: 9
+      pivot: {x: .407863379, y: .0633599684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tougue
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 175
+        width: 15
+        height: 38
+      alignment: 9
+      pivot: {x: .693867981, y: .838903308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Face
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 135
+        width: 106
+        height: 73
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 203
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: .719364405, y: .819289565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jaw
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 154
+        width: 85
+        height: 48
+      alignment: 9
+      pivot: {x: .84544605, y: .766935647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jaw
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 81
+        width: 101
+        height: 53
+      alignment: 9
+      pivot: {x: .507928848, y: .787081599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 125
+        width: 71
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 54
+        width: 66
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 38
+        width: 29
+        height: 42
+      alignment: 9
+      pivot: {x: .658791363, y: .179508656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Face
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 57
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 4
+        width: 28
+        height: 52
+      alignment: 9
+      pivot: {x: .651810765, y: .152585134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1
+        width: 27
+        height: 55
+      alignment: 9
+      pivot: {x: .512740552, y: .812743187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 6
+        width: 26
+        height: 50
+      alignment: 9
+      pivot: {x: .433841407, y: .768333375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 4
+        width: 25
+        height: 52
+      alignment: 9
+      pivot: {x: .568802476, y: .810938776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 199
+      alignment: 9
+      pivot: {x: .461336732, y: .967326939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 44
+        width: 72
+        height: 155
+      alignment: 9
+      pivot: {x: .238626167, y: .95496273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

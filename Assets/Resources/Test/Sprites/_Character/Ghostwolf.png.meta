@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 430450fdb0b609b469d2ae16a9271956
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Head
+    21300004: Head
+    21300006: Body
+    21300008: LegB
+    21300010: Head
+    21300012: LegB
+    21300014: Body
+    21300016: LegB
+    21300018: LegB
+    21300020: Tail
+    21300022: Eye
+    21300024: LegB
+    21300026: Jaw
+    21300028: Jaw
+    21300030: Tail
+    21300032: LegB
+    21300034: LegB
+    21300036: Hair
+    21300038: Body
+    21300040: Tail
+    21300042: LegB
+    21300044: Leg
+    21300046: Eye
+    21300048: Hair
+    21300050: Body
+    21300052: Leg
+    21300054: Leg
+    21300056: Hair
+    21300058: LegF
+    21300060: LegF
+    21300062: LegF
+    21300064: Leg
+    21300066: Shadow
+    21300068: FX
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 170
+        height: 156
+      alignment: 9
+      pivot: {x: .50000006, y: .126530766}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 362
+        width: 167
+        height: 145
+      alignment: 9
+      pivot: {x: .499999911, y: .0981986225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 353
+        width: 155
+        height: 154
+      alignment: 9
+      pivot: {x: .544793487, y: .208418012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 116
+        height: 88
+      alignment: 9
+      pivot: {x: .256974995, y: .136935145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 275
+        width: 37
+        height: 75
+      alignment: 9
+      pivot: {x: .381479621, y: .809055567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 215
+        width: 156
+        height: 146
+      alignment: 9
+      pivot: {x: .508031487, y: .109532394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 302
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: .389447391, y: .824589849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 176
+        width: 116
+        height: 85
+      alignment: 9
+      pivot: {x: .489198893, y: .138861626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 217
+        width: 39
+        height: 57
+      alignment: 9
+      pivot: {x: .435747206, y: .840708435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 168
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: .585427046, y: .826283157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 172
+        width: 68
+        height: 42
+      alignment: 9
+      pivot: {x: .140704438, y: .619325936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 183
+        width: 72
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegF
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 160
+        width: 35
+        height: 54
+      alignment: 9
+      pivot: {x: .60739398, y: .836434841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jaw
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 97
+        height: 76
+      alignment: 9
+      pivot: {x: .512916863, y: .722559869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jaw
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 113
+        width: 91
+        height: 54
+      alignment: 9
+      pivot: {x: .809790134, y: .662416518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 116
+        width: 81
+        height: 56
+      alignment: 9
+      pivot: {x: .863504291, y: .578307569}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 116
+        width: 54
+        height: 66
+      alignment: 9
+      pivot: {x: .439680308, y: .845468223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 109
+        width: 37
+        height: 50
+      alignment: 9
+      pivot: {x: .444978446, y: .882729173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 13
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 28
+        width: 118
+        height: 84
+      alignment: 9
+      pivot: {x: .871631563, y: .514915466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 44
+        width: 61
+        height: 70
+      alignment: 9
+      pivot: {x: .602699161, y: .625292957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: LegB
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 61
+        width: 36
+        height: 54
+      alignment: 9
+      pivot: {x: .714889526, y: .861919403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 60
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: .466986567, y: .873229027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2
+        width: 83
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1
+        width: 67
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 22
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 10
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: .510714889, y: .88272959}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 11
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: .511003673, y: .881245792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hair
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 4
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 1
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 91
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

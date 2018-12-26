@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: f947bc2d3c8bb82408c24a8ac94a7378
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: S100Hip1
+    21300002: S100Arm1
+    21300004: S100HipHip2
+    21300006: S100HipHip2
+    21300008: S100Arm2
+    21300010: S100Chest1
+    21300012: S100Arm2
+    21300014: S100Leg1
+    21300016: S100Chest1
+    21300018: S100HipHip2
+    21300020: S100Thigh1
+    21300022: S100Arm2
+    21300024: S100Thigh2
+    21300026: S100Forearm1
+    21300028: S100Forearm1
+    21300030: S100Eye1
+    21300032: S100Arm2
+    21300034: S100Thigh3
+    21300036: S100Leg1
+    21300038: S100Thigh3
+    21300040: S100Body1
+    21300042: S100Leg1
+    21300044: S100Leg1
+    21300046: S100Thigh3
+    21300048: S100Forearm1
+    21300050: S100Thigh3
+    21300052: S100Arm2
+    21300054: S100Leg1
+    21300056: S100Leg1
+    21300058: S100Forearm1
+    21300060: S100Forearm1
+    21300062: S100Forearm1
+    21300064: S100Eye1
+    21300066: S100Body1
+    21300068: S100Hair1
+    21300070: S100Body1
+    21300072: S100Body1
+    21300074: S100Hair1
+    21300076: Ear
+    21300078: S100Hair1
+    21300080: S100Hair1
+    21300082: S100Hair1
+    21300084: S100Hair1
+    21300086: S100Hair1
+    21300088: S100Hair1
+    21300090: S100Hair1
+    21300092: S100Hair1
+    21300094: S100Hair1
+    21300096: S100Hair1
+    21300098: S100Hair1
+    21300100: S100Hair1
+    21300102: S100Hair1
+    21300104: S100Hair1
+    21300106: S100Hair1
+    21300108: S100Hair1
+    21300110: S100Head1
+    21300112: S100Head1
+    21300114: S100Head1
+    21300116: S100Head1
+    21300118: S100Shadow
+    21300120: S100Forearm1
+    21300122: S100Eye1
+    21300124: S100Eye4
+    21300126: S100Eye4
+    21300128: S100Mouth1
+    21300130: S100Mouth1
+    21300132: Faceshadow
+    21300134: Faceshadow
+    21300136: S100Eye8
+    21300138: S100Eye8
+    21300140: Sweat
+    21300142: Vertigo
+    21300144: S100Star
+    21300146: S100Mouth1
+    21300148: S100Eye6
+    21300150: S100Eye6
+    21300152: Mouth0
+    21300154: S100Mouth1
+    21300156: S100Thigh7
+    21300158: S100Hair19
+    21300160: S100Arm7
+    21300162: S100Thigh9
+    21300164: S100Leg7
+    21300166: S100Hip3
+    21300168: S100Arm3
+    21300170: S100Chest2
+    21300172: S100Hip4
+    21300174: S100Arm4
+    21300176: S100Forearm2
+    21300178: S100Arm5
+    21300180: S100Leg2
+    21300182: S100Thigh4
+    21300184: S100Leg3
+    21300186: S100Leg4
+    21300188: S100Thigh5
+    21300190: S100Forearm3
+    21300192: S100Thigh6
+    21300194: S100Arm6
+    21300196: S100Leg5
+    21300198: S100Leg6
+    21300200: S100Forearm4
+    21300202: S100Forearm5
+    21300204: S100Forearm6
+    21300206: S100Forearm7
+    21300208: S100Eye2
+    21300210: S100Body2
+    21300212: S100Body3
+    21300214: S100Body4
+    21300216: S100Hair2
+    21300218: S100Hair3
+    21300220: S100Hair4
+    21300222: S100Hair5
+    21300224: S100Hair6
+    21300226: S100Hair7
+    21300228: S100Hair8
+    21300230: S100Hair9
+    21300232: S100Hair10
+    21300234: S100Hair11
+    21300236: S100Hair12
+    21300238: S100Hair13
+    21300240: S100Hair14
+    21300242: S100Hair15
+    21300244: S100Hair16
+    21300246: S100Hair17
+    21300248: S100Hair18
+    21300250: S100Head2
+    21300252: S100Head3
+    21300254: S100Head4
+    21300256: S100Eye3
+    21300258: S100Thigh8
+    21300260: S100Mouth2
+    21300262: Mouth
+    21300264: S100Mouth3
+    21300266: S100Hair20
+    21300268: S100Arm8
+    21300270: S100Leg8
+    21300272: S100Forearm8
+    21300274: S100Eye5
+    21300276: S100Eye9
+    21300278: S100Eye7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: S100Hip1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 490
+        width: 23
+        height: 18
+      alignment: 9
+      pivot: {x: .492192805, y: .739432454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 489
+        width: 17
+        height: 19
+      alignment: 9
+      pivot: {x: .705504894, y: .788942039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100HipHip2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 489
+        width: 27
+        height: 19
+      alignment: 9
+      pivot: {x: .460095167, y: .670122623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hip3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 489
+        width: 24
+        height: 19
+      alignment: 9
+      pivot: {x: .492518097, y: .736281574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 488
+        width: 14
+        height: 20
+      alignment: 9
+      pivot: {x: .299999774, y: .685000598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Chest1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 488
+        width: 30
+        height: 20
+      alignment: 9
+      pivot: {x: .507362366, y: .770581067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 488
+        width: 12
+        height: 20
+      alignment: 9
+      pivot: {x: .666666687, y: .805001855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 488
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: .428024292, y: .828930676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Chest2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 487
+        width: 30
+        height: 21
+      alignment: 9
+      pivot: {x: .459504694, y: .720881879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hip4
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 487
+        width: 28
+        height: 21
+      alignment: 9
+      pivot: {x: .442280352, y: .77363658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 486
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: .616930008, y: .744488776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm4
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 486
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: .277757436, y: .769117892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 486
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: .514164209, y: .755941212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 485
+        width: 22
+        height: 23
+      alignment: 9
+      pivot: {x: .765350342, y: .747303843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 485
+        width: 26
+        height: 23
+      alignment: 9
+      pivot: {x: .229414716, y: .740795612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 484
+        width: 76
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm5
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 484
+        width: 17
+        height: 24
+      alignment: 9
+      pivot: {x: .256879032, y: .762400329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 454
+        width: 19
+        height: 25
+      alignment: 9
+      pivot: {x: .329522848, y: .763593733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 454
+        width: 17
+        height: 25
+      alignment: 9
+      pivot: {x: .513685346, y: .83036989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 454
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: .259090602, y: .764000237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Body1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 454
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: .5, y: .242054448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 454
+        width: 14
+        height: 25
+      alignment: 9
+      pivot: {x: .536659777, y: .80793947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 453
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: .391370147, y: .800822318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh5
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 453
+        width: 20
+        height: 26
+      alignment: 9
+      pivot: {x: .663171411, y: .778320312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm3
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 453
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: .407720774, y: .803043067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 453
+        width: 14
+        height: 26
+      alignment: 9
+      pivot: {x: .510368347, y: .784747779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm6
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 453
+        width: 14
+        height: 26
+      alignment: 9
+      pivot: {x: .346237183, y: .81738162}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 451
+        width: 19
+        height: 27
+      alignment: 9
+      pivot: {x: .6140185, y: .79687047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg6
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 451
+        width: 14
+        height: 24
+      alignment: 9
+      pivot: {x: .438103825, y: .802385986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm4
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 450
+        width: 17
+        height: 29
+      alignment: 9
+      pivot: {x: .570671558, y: .831426144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 450
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: .349822998, y: .821069121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 449
+        width: 17
+        height: 30
+      alignment: 9
+      pivot: {x: .336305499, y: .852493286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 449
+        width: 63
+        height: 30
+      alignment: 9
+      pivot: {x: .368589371, y: .418466181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Body2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 449
+        width: 34
+        height: 28
+      alignment: 9
+      pivot: {x: .453950763, y: .22041212}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 449
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: .285677582, y: .947466016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Body3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 412
+        width: 31
+        height: 32
+      alignment: 9
+      pivot: {x: .352694899, y: .232434273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Body4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 411
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: .505945206, y: .262163579}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 409
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: .193455726, y: .871024013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 408
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 404
+        width: 27
+        height: 40
+      alignment: 9
+      pivot: {x: .172314674, y: .913834393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 403
+        width: 27
+        height: 41
+      alignment: 9
+      pivot: {x: .785402656, y: .917662859}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair5
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 400
+        width: 45
+        height: 44
+      alignment: 9
+      pivot: {x: .0909220353, y: .814591825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 397
+        width: 30
+        height: 47
+      alignment: 9
+      pivot: {x: .842483521, y: .940249205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 396
+        width: 26
+        height: 48
+      alignment: 2
+      pivot: {x: .5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 396
+        width: 35
+        height: 48
+      alignment: 9
+      pivot: {x: .765017271, y: .874591172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 395
+        width: 40
+        height: 49
+      alignment: 9
+      pivot: {x: .88886106, y: .887332201}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 394
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: .464154273, y: .972041011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair11
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 393
+        width: 24
+        height: 50
+      alignment: 9
+      pivot: {x: .664704621, y: .916852415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 313
+        width: 50
+        height: 51
+      alignment: 9
+      pivot: {x: .190954551, y: .810032248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 312
+        width: 49
+        height: 52
+      alignment: 9
+      pivot: {x: .191981256, y: .804070115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 312
+        width: 39
+        height: 52
+      alignment: 9
+      pivot: {x: .711927772, y: .873176575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 308
+        width: 49
+        height: 56
+      alignment: 9
+      pivot: {x: .213982716, y: .827269971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 308
+        width: 44
+        height: 60
+      alignment: 9
+      pivot: {x: .0018033114, y: .72160238}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 320
+        width: 112
+        height: 69
+      alignment: 9
+      pivot: {x: .474332005, y: .82810688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair18
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 312
+        width: 129
+        height: 77
+      alignment: 9
+      pivot: {x: .483285844, y: .817352712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Head1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 111
+        height: 115
+      alignment: 9
+      pivot: {x: .52999872, y: .17184037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Head2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 194
+        width: 109
+        height: 113
+      alignment: 9
+      pivot: {x: .543278098, y: .161120936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Head3
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 190
+        width: 115
+        height: 117
+      alignment: 9
+      pivot: {x: .487935483, y: .194051623}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Head4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 188
+        width: 115
+        height: 119
+      alignment: 9
+      pivot: {x: .487935483, y: .194529936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Shadow
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm7
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 453
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: .645016015, y: .829119146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 449
+        width: 40
+        height: 30
+      alignment: 9
+      pivot: {x: .00250015268, y: .420000196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 375
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 375
+        width: 71
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Mouth1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 377
+        width: 40
+        height: 21
+      alignment: 9
+      pivot: {x: .475882709, y: .678006113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Mouth2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 378
+        width: 34
+        height: 20
+      alignment: 9
+      pivot: {x: .408823341, y: .765000939}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Faceshadow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 85
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Faceshadow
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 83
+        height: 56
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 72
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Sweat
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 109
+        width: 10
+        height: 23
+      alignment: 9
+      pivot: {x: .550002277, y: .752174735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Vertigo
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 91
+        width: 94
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Star
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 189
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 365
+        width: 28
+        height: 8
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 163
+        width: 61
+        height: 29
+      alignment: 9
+      pivot: {x: .376216799, y: .387888402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Eye7
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 167
+        width: 73
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Mouth0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 366
+        width: 28
+        height: 8
+      alignment: 9
+      pivot: {x: .5, y: 1.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Mouth3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 380
+        width: 27
+        height: 16
+      alignment: 9
+      pivot: {x: .824962497, y: .833641052}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 161
+        width: 15
+        height: 22
+      alignment: 9
+      pivot: {x: .480846137, y: .778019309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 136
+        width: 49
+        height: 52
+      alignment: 9
+      pivot: {x: .838248432, y: .836441934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 156
+        width: 17
+        height: 24
+      alignment: 9
+      pivot: {x: .800148487, y: .851260483}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 156
+        width: 14
+        height: 26
+      alignment: 9
+      pivot: {x: .5, y: .834542513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 155
+        width: 13
+        height: 20
+      alignment: 9
+      pivot: {x: .468170166, y: .849533081}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Thigh8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 128
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: .261510849, y: .826079607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Hair20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 125
+        width: 49
+        height: 56
+      alignment: 9
+      pivot: {x: .835826039, y: .846320271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Arm8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 118
+        width: 18
+        height: 22
+      alignment: 9
+      pivot: {x: .816321492, y: .831273854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Leg8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 116
+        width: 14
+        height: 25
+      alignment: 9
+      pivot: {x: .394269675, y: .875661612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: S100Forearm8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 85
+        width: 19
+        height: 29
+      alignment: 9
+      pivot: {x: .641247392, y: .907457829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 1b27f3efee72c35418c3c3cd9fe5cae5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Leg
+    21300002: Ear1
+    21300004: Goatee
+    21300006: Ear0
+    21300008: Eye
+    21300010: Leg
+    21300012: Leg
+    21300014: Tail
+    21300016: Eye
+    21300018: Ear1
+    21300020: Goatee
+    21300022: Leg
+    21300024: Ear0
+    21300026: Ear1
+    21300028: Leg
+    21300030: Tail
+    21300032: Leg
+    21300034: Leg
+    21300036: Ear1
+    21300038: Ear0
+    21300040: Ear0
+    21300042: Leg
+    21300044: Leg
+    21300046: Leg
+    21300048: Shadow
+    21300050: Body
+    21300052: Body
+    21300054: Body
+    21300056: Body
+    21300058: Head
+    21300060: Head
+    21300062: Head
+    21300064: Head
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 435
+        width: 27
+        height: 32
+      alignment: 9
+      pivot: {x: .590182364, y: 1.13587761}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 435
+        width: 46
+        height: 32
+      alignment: 9
+      pivot: {x: .71538794, y: .608356476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Goatee
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 433
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: .545000017, y: .958824635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 432
+        width: 47
+        height: 35
+      alignment: 9
+      pivot: {x: .146925256, y: .683144689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 431
+        width: 78
+        height: 36
+      alignment: 9
+      pivot: {x: .517201543, y: .265372396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 428
+        width: 40
+        height: 39
+      alignment: 9
+      pivot: {x: .537384808, y: .856933594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 428
+        width: 33
+        height: 39
+      alignment: 9
+      pivot: {x: .501574874, y: .786583543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 428
+        width: 29
+        height: 39
+      alignment: 9
+      pivot: {x: .370323449, y: .683635235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Eye
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 428
+        width: 75
+        height: 39
+      alignment: 9
+      pivot: {x: .486334622, y: .373648614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear1
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 427
+        width: 47
+        height: 40
+      alignment: 9
+      pivot: {x: .73207581, y: .580745697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Goatee
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 427
+        width: 46
+        height: 40
+      alignment: 9
+      pivot: {x: .487053901, y: .787599921}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 386
+        width: 31
+        height: 40
+      alignment: 9
+      pivot: {x: .521985829, y: .771146417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 385
+        width: 50
+        height: 41
+      alignment: 9
+      pivot: {x: .153652951, y: .702147722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 384
+        width: 50
+        height: 42
+      alignment: 9
+      pivot: {x: .847906649, y: .725543082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 382
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: .631361902, y: .850950062}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Tail
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 382
+        width: 49
+        height: 44
+      alignment: 9
+      pivot: {x: .516250908, y: .671021879}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 382
+        width: 27
+        height: 44
+      alignment: 9
+      pivot: {x: .515090942, y: .771714628}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 381
+        width: 36
+        height: 45
+      alignment: 9
+      pivot: {x: .471901774, y: .786896408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear1
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 381
+        width: 50
+        height: 45
+      alignment: 9
+      pivot: {x: .769189477, y: .553940177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear0
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 381
+        width: 53
+        height: 45
+      alignment: 9
+      pivot: {x: .303069502, y: .674648046}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Ear0
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 381
+        width: 55
+        height: 45
+      alignment: 9
+      pivot: {x: .206317693, y: .644198298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 379
+        width: 36
+        height: 47
+      alignment: 9
+      pivot: {x: .516119242, y: .73740536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 330
+        width: 38
+        height: 48
+      alignment: 9
+      pivot: {x: .5659284, y: .845045745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Leg
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 329
+        width: 38
+        height: 49
+      alignment: 9
+      pivot: {x: .588759482, y: .811705947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 317
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 308
+        width: 96
+        height: 70
+      alignment: 9
+      pivot: {x: .319631904, y: .48288095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 304
+        width: 101
+        height: 74
+      alignment: 9
+      pivot: {x: .827876627, y: .599164009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 302
+        width: 94
+        height: 76
+      alignment: 9
+      pivot: {x: .496517092, y: .287500471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 220
+        width: 97
+        height: 81
+      alignment: 9
+      pivot: {x: .499761045, y: .321934074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 170
+        width: 121
+        height: 131
+      alignment: 9
+      pivot: {x: .472000241, y: .143280849}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 162
+        width: 130
+        height: 139
+      alignment: 9
+      pivot: {x: .453263283, y: .235354751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 159
+        width: 130
+        height: 142
+      alignment: 9
+      pivot: {x: .500923753, y: .130275458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 130
+        height: 157
+      alignment: 9
+      pivot: {x: .478357702, y: .268354505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

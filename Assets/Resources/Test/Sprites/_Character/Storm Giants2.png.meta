@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: d2730f19e7447f84eb4dc7343bb63608
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Arm
+    21300004: Forearm
+    21300006: Body
+    21300008: Thigh
+    21300010: Hip
+    21300012: Head
+    21300014: Arm
+    21300016: Forearm
+    21300018: Body
+    21300020: Arm
+    21300022: Forearm
+    21300024: Hip
+    21300026: Thigh
+    21300028: Shadow
+    21300030: FX
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  - buildTarget: WP8
+    maxTextureSize: 1024
+    textureFormat: -1
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 612
+        width: 125
+        height: 99
+      alignment: 9
+      pivot: {x: .519024789, y: .387901843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 549
+        width: 129
+        height: 162
+      alignment: 9
+      pivot: {x: .710784197, y: .416826785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 544
+        width: 142
+        height: 167
+      alignment: 9
+      pivot: {x: .566988468, y: .813281775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 429
+        width: 285
+        height: 282
+      alignment: 9
+      pivot: {x: .511125505, y: .210469127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 575
+        width: 96
+        height: 136
+      alignment: 9
+      pivot: {x: .516515076, y: .709831715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 573
+        width: 165
+        height: 138
+      alignment: 9
+      pivot: {x: .504804015, y: .408093452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 305
+        width: 100
+        height: 123
+      alignment: 9
+      pivot: {x: .50792712, y: .248657718}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 261
+        width: 127
+        height: 167
+      alignment: 9
+      pivot: {x: .676138222, y: .427816421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 241
+        width: 170
+        height: 187
+      alignment: 9
+      pivot: {x: .537303448, y: .813687563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Body
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 134
+        width: 299
+        height: 294
+      alignment: 9
+      pivot: {x: .632557929, y: .200716659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Arm
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 291
+        width: 105
+        height: 137
+      alignment: 9
+      pivot: {x: .432053924, y: .239625588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Forearm
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 284
+        width: 132
+        height: 144
+      alignment: 9
+      pivot: {x: .457963437, y: .797261357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Hip
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 163
+        height: 128
+      alignment: 9
+      pivot: {x: .684800625, y: .469035983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Thigh
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1
+        width: 107
+        height: 132
+      alignment: 9
+      pivot: {x: .574083865, y: .860316694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shadow
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 470
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FX
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 325
+        height: 143
+      alignment: 9
+      pivot: {x: .456917822, y: .37597543}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
