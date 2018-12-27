@@ -59,4 +59,11 @@ public class Tile : MonoBehaviour
 	{
 		
 	}
+
+	public void MoveDown(int count, FightManager fightManager)
+	{
+		int x = X;
+		int y = Y - count;
+		
+	}
 }

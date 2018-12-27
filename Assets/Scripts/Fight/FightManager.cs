@@ -162,9 +162,33 @@ public class FightManager : MonoBehaviour
 		{
 			for (int j = 0; j < height; j++)
 			{
-				Tile t = GetBlockByPos(i, j).CurTile;
+				Block b = GetBlockByPos(i, j);
+				if (b.CurTile)
+				{
+					int count = findDownCount(b);
+					if (count > 0)
+					{
+						Log.Info(string.Format("tile {0} need down count {1}",b.CurTile.name,count.ToString()));
+						b.CurTile.MoveDown(count,this);
+					}	
+				}
 			}
 		}
+	}
+
+	int findDownCount(Block b)
+	{
+		int downCount = 0;
+		int y = b.Y;
+		for (int i = y; i >= 0; i--)
+		{
+			Block downB = GetBlockByPos(b.X, i);
+			if (downB.CurTile == null)
+			{
+				downCount++;
+			}
+		}
+		return downCount;
 	}
 	
 	void ResetMapTile(bool first = false)
