@@ -5,7 +5,22 @@ using UnityEngine;
 public class Block
 {
 
-    public Tile CurTile = null;
+    private Tile curTile;
+    public Tile CurTile 
+    {
+        get
+        {
+            return curTile;
+        }
+        set
+        {
+            curTile = value;
+            if (curTile)
+            {
+                curTile.CurBlock = this;   
+            }
+        }  
+    }    
 
     public int X;
 

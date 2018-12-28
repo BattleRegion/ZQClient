@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Tile : MonoBehaviour
 {
@@ -20,6 +22,8 @@ public class Tile : MonoBehaviour
 	public List<Sprite> TileSPrite = new List<Sprite>();
 
 	public SpriteRenderer SRender;
+
+	public Block CurBlock;
 
 	public AttrType CurAttrType = AttrType.UnDefine;
 	
@@ -55,15 +59,31 @@ public class Tile : MonoBehaviour
 		DestroyImmediate(gameObject);	
 	}
 
-	public void Swap(Tile t)
+	public void Swap(Tile t,Action callback)
 	{
+		//todo 需要动画
+		int sX = t.X;
+		int sY = t.Y;
+		Block swab = t.CurBlock;
+		t.CurBlock = CurBlock;
+		CurBlock = swab;
 		
+		t.SetPos(X,Y);
+		SetPos(sX,sY);
+		
+		callback.Invoke();
 	}
 
-	public void MoveDown(int count, FightManager fightManager)
+	public void MoveDown(int count, FightManager fightManager, Action callback)
 	{
+		//todo 需要动画
+		Block cBlock = CurBlock;
+		cBlock.CurTile = null;
 		int x = X;
 		int y = Y - count;
-		
+		Block b = fightManager.GetBlockByPos(x, y);
+		b.CurTile = this;
+		SetPos(x, y);
+		callback.Invoke();
 	}
 }

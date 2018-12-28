@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class FightManager : MonoBehaviour
 {
+	public enum Direction
+	{
+		Right = 0,
+		Up = 1,
+		Left = 2,
+		Down = 3
+	}
 
 	public GameObject TilesRoot;
 
@@ -25,15 +32,24 @@ public class FightManager : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (inputEnable)
+		if (Input.touchCount > 0)
 		{
-			Ray ray = CurCamera.ScreenPointToRay(Input.mousePosition);
-#if UNITY_EDITOR
-			DealPcInput(ray);
-#else
-			DealMobileInput();
-		#endif	
+			Log.Info(Input.GetTouch(0).position.ToString());		
 		}
+
+		if (Input.GetMouseButtonDown(0))
+		{
+			Log.Info(Input.mousePosition.ToString());
+		}
+//		if (inputEnable)
+//		{
+//			Ray ray = CurCamera.ScreenPointToRay(Input.mousePosition);
+//#if UNITY_EDITOR
+//			DealPcInput(ray);
+//#else
+//			DealMobileInput();
+//		#endif	
+//		}
 	}
 
 	void DealPcInput(Ray ray)
@@ -99,9 +115,27 @@ public class FightManager : MonoBehaviour
 			}
 			else
 			{
-				if (InCrossRange(selectedTile, tile))
+				Vector3 from = Vector3.right;
+				Vector3 to = new Vector3(tile.X - selectedTile.X, tile.Y - selectedTile.Y ,0);
+				float angle = Angle_360(from, to);
+				Log.Info(from.ToString());
+				Log.Info(to.ToString());
+				Log.Info(Angle_360(from, to).ToString());
+				if (angle > 45 && angle <= 135)
 				{
-					Swap(tile);
+					Log.Info("up");
+				}
+				else if (angle > 135 && angle <= 225)
+				{
+					Log.Info("left");
+				}
+				else if (angle > 225 && angle <= 315)
+				{
+					Log.Info("down");
+				}
+				else if ((angle > 315 && angle <= 360) || (angle >= 0 && angle <= 45))
+				{
+					Log.Info("right");
 				}
 			}	
 		}
@@ -111,12 +145,22 @@ public class FightManager : MonoBehaviour
 		}
 	}
 
+	float Angle_360(Vector3 from_, Vector3 to_)
+	{
+		Vector3 v3 = Vector3.Cross(from_, to_);
+		if (v3.z > 0)
+			return Vector3.Angle(from_, to_);
+		else
+			return 360 - Vector3.Angle(from_, to_);
+	}
+
+
 	Block GetBlockByTile(Tile t)
 	{
 		return GetBlockByPos(t.X, t.Y);
 	}
 
-	Block GetBlockByPos(int x, int y)
+	public Block GetBlockByPos(int x, int y)
 	{
 		string blockName = "Block_" +  x + "_" + y;
 		return CurBlocks[blockName];
@@ -126,18 +170,22 @@ public class FightManager : MonoBehaviour
 	{
 		SetInputEnable(false);
 		Log.Info(String.Format("bump tile {0}",selectedTile));
-		Block b = GetBlockByTile(selectedTile);
+		Block b = selectedTile.CurBlock;
 		b.CurTile = null;
 		selectedTile.Bump();
 		selectedTile = null;
 		MapTileDownAnimation();
 	}
 
+	//direction 
 	void Swap(Tile tile)
 	{
 		SetInputEnable(false);
 		Log.Info(String.Format("change tile {0} to {1}",selectedTile, tile));	
-		selectedTile.Swap(tile);
+		selectedTile.Swap(tile, () =>
+		{
+			SetInputEnable(true);
+		});
 	}
 	
 	bool InCrossRange(Tile from, Tile to)
@@ -158,6 +206,7 @@ public class FightManager : MonoBehaviour
 	void MapTileDownAnimation()
 	{
 		Log.Info(String.Format("MapTileDownAnimation"));
+		Dictionary<Block, int> needDown = new Dictionary<Block, int>();
 		for (int i = 0; i < width; i++)
 		{
 			for (int j = 0; j < height; j++)
@@ -165,18 +214,35 @@ public class FightManager : MonoBehaviour
 				Block b = GetBlockByPos(i, j);
 				if (b.CurTile)
 				{
-					int count = findDownCount(b);
+					int count = FindDownCount(b);
 					if (count > 0)
 					{
-						Log.Info(string.Format("tile {0} need down count {1}",b.CurTile.name,count.ToString()));
-						b.CurTile.MoveDown(count,this);
+						Log.Info(string.Format("tile {0} need down count {1}", b.CurTile.name, count.ToString()));
+						needDown.Add(b,count);
 					}	
 				}
 			}
 		}
+
+		int downCount = needDown.Count;
+		
+		foreach (var item in needDown)
+		{
+			Block b = item.Key;
+			int count = item.Value;
+			b.CurTile.MoveDown(count,this, () =>
+			{
+				downCount--;
+				Log.Info(String.Format("move down end {0}",downCount));
+				if (downCount == 0)
+				{
+					ResetMapTile();
+				}
+			});
+		}
 	}
 
-	int findDownCount(Block b)
+	int FindDownCount(Block b)
 	{
 		int downCount = 0;
 		int y = b.Y;
