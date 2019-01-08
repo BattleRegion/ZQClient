@@ -32,30 +32,23 @@ public class FightManager : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.touchCount > 0)
+		if (inputEnable)
 		{
-			Log.Info(Input.GetTouch(0).position.ToString());		
+			Ray ray = CurCamera.ScreenPointToRay(Input.mousePosition);
+#if UNITY_EDITOR
+			DealPcInput(ray);
+#else
+			DealMobileInput();
+		#endif	
 		}
-
-		if (Input.GetMouseButtonDown(0))
-		{
-			Log.Info(Input.mousePosition.ToString());
-		}
-//		if (inputEnable)
-//		{
-//			Ray ray = CurCamera.ScreenPointToRay(Input.mousePosition);
-//#if UNITY_EDITOR
-//			DealPcInput(ray);
-//#else
-//			DealMobileInput();
-//		#endif	
-//		}
 	}
 
+	Vector3 beginPos = new Vector3(0,0,0);
 	void DealPcInput(Ray ray)
 	{
 		if (Input.GetMouseButtonDown(0))
 		{
+			beginPos = Input.mousePosition;
 			SelectTile(HitTile(ray));
 		}
 		else if (Input.GetMouseButtonUp(0))
@@ -103,11 +96,12 @@ public class FightManager : MonoBehaviour
 	void SelectTile(Tile tile)
 	{
 		selectedTile = tile;
+		Log.Info(String.Format("select title {0}",selectedTile.name));
 	}
 
 	void ActionTile(Tile tile)
 	{
-		if (selectedTile && tile)
+		if (selectedTile)
 		{
 			if (selectedTile == tile)
 			{
@@ -115,27 +109,35 @@ public class FightManager : MonoBehaviour
 			}
 			else
 			{
-				Vector3 from = Vector3.right;
-				Vector3 to = new Vector3(tile.X - selectedTile.X, tile.Y - selectedTile.Y ,0);
+				Vector3 from = Input.mousePosition - beginPos;
+				Vector3 to = Vector3.right;
 				float angle = Angle_360(from, to);
-				Log.Info(from.ToString());
-				Log.Info(to.ToString());
-				Log.Info(Angle_360(from, to).ToString());
+				Direction d = Direction.Down;
 				if (angle > 45 && angle <= 135)
 				{
-					Log.Info("up");
+					Log.Info("move down");
+					d = Direction.Down;
 				}
 				else if (angle > 135 && angle <= 225)
 				{
-					Log.Info("left");
+					Log.Info("move left");
+					d = Direction.Left;
 				}
 				else if (angle > 225 && angle <= 315)
 				{
-					Log.Info("down");
+					Log.Info("move up");
+					d = Direction.Up;
 				}
 				else if ((angle > 315 && angle <= 360) || (angle >= 0 && angle <= 45))
 				{
-					Log.Info("right");
+					Log.Info("move right");
+					d = Direction.Right;
+				}
+
+				Tile swapTile = GetDirectionTile(d);
+				if (swapTile)
+				{
+					Swap(swapTile);
 				}
 			}	
 		}
@@ -145,6 +147,36 @@ public class FightManager : MonoBehaviour
 		}
 	}
 
+	Tile GetDirectionTile(Direction direction)
+	{
+		int x = selectedTile.X;
+		int y = selectedTile.Y;
+		switch (direction)
+		{
+			case Direction.Down:
+				y = y - 1;
+				break;
+			case Direction.Up:
+				y = y + 1;
+				break;
+			case Direction.Left:
+				x = x - 1;
+				break;
+			case Direction.Right:
+				x = x + 1;
+				break;
+		}
+		
+		Log.Info(String.Format("GetDirectionTile {0} {1} {2}-{3}",direction,selectedTile,x,y));
+
+		Block directB = GetBlockByPos(x, y);
+		if (directB !=null && directB.CurTile !=null)
+		{
+			return directB.CurTile;
+		}
+		return null;
+	}
+	
 	float Angle_360(Vector3 from_, Vector3 to_)
 	{
 		Vector3 v3 = Vector3.Cross(from_, to_);
@@ -154,7 +186,6 @@ public class FightManager : MonoBehaviour
 			return 360 - Vector3.Angle(from_, to_);
 	}
 
-
 	Block GetBlockByTile(Tile t)
 	{
 		return GetBlockByPos(t.X, t.Y);
@@ -163,7 +194,12 @@ public class FightManager : MonoBehaviour
 	public Block GetBlockByPos(int x, int y)
 	{
 		string blockName = "Block_" +  x + "_" + y;
-		return CurBlocks[blockName];
+		if (CurBlocks.ContainsKey(blockName))
+		{
+			return CurBlocks[blockName];	
+		}
+
+		return null;
 	}
 	
 	void Bump()
@@ -182,8 +218,9 @@ public class FightManager : MonoBehaviour
 	{
 		SetInputEnable(false);
 		Log.Info(String.Format("change tile {0} to {1}",selectedTile, tile));	
-		selectedTile.Swap(tile, () =>
+		selectedTile.CurBlock.SwapTile(tile.CurBlock, () =>
 		{
+			selectedTile = null;
 			SetInputEnable(true);
 		});
 	}

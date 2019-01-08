@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,9 +16,9 @@ public class Block
         set
         {
             curTile = value;
-            if (curTile)
+            if (curTile!=null)
             {
-                curTile.CurBlock = this;   
+                curTile.CurBlock = this;
             }
         }  
     }    
@@ -30,5 +31,18 @@ public class Block
     {
         X = x;
         Y = y;
+    }
+
+    public void SwapTile(Block swapBlock, Action callback)
+    {
+        Tile swapTile = swapBlock.CurTile;
+
+        swapBlock.CurTile = CurTile;
+        CurTile = swapTile;
+        
+        CurTile.SetPos(X, Y);
+        swapBlock.CurTile.SetPos(swapBlock.X, swapBlock.Y);
+        
+        callback.Invoke();
     }
 }

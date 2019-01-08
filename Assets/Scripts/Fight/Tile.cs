@@ -42,6 +42,7 @@ public class Tile : MonoBehaviour
 
 	public void SetPos(int x, int y)
 	{
+		name = "Tile_" + x + "_" + y;
 		X = x;
 		Y = y;
 		float xPos = -2.1f + x * 0.84f;
@@ -57,21 +58,6 @@ public class Tile : MonoBehaviour
 	public void Bump()
 	{
 		DestroyImmediate(gameObject);	
-	}
-
-	public void Swap(Tile t,Action callback)
-	{
-		//todo 需要动画
-		int sX = t.X;
-		int sY = t.Y;
-		Block swab = t.CurBlock;
-		t.CurBlock = CurBlock;
-		CurBlock = swab;
-		
-		t.SetPos(X,Y);
-		SetPos(sX,sY);
-		
-		callback.Invoke();
 	}
 
 	public void MoveDown(int count, FightManager fightManager, Action callback)
