@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class FightManager : MonoBehaviour
 {
+	public static float MoveDownDelay = 0.02f;
+	public static float BumpEndActionDelay = 0.35f;
+	public static float ResetMapDelay = 0.35f;
+	public static float TileMoveTime = 0.35f;
 	public enum Direction
 	{
 		Right = 0,
@@ -210,6 +214,13 @@ public class FightManager : MonoBehaviour
 		b.CurTile = null;
 		selectedTile.Bump();
 		selectedTile = null;
+		
+		StartCoroutine(InvokeTileDown());
+	}
+	
+	IEnumerator InvokeTileDown()
+	{
+		yield return new WaitForSeconds(FightManager.BumpEndActionDelay);
 		MapTileDownAnimation();
 	}
 
@@ -261,24 +272,41 @@ public class FightManager : MonoBehaviour
 			}
 		}
 
-		int downCount = needDown.Count;
+		downCount = needDown.Count;
+
+		int index = 0;
 		
 		foreach (var item in needDown)
 		{
 			Block b = item.Key;
 			int count = item.Value;
-			b.CurTile.MoveDown(count,this, () =>
-			{
-				downCount--;
-				Log.Info(String.Format("move down end {0}",downCount));
-				if (downCount == 0)
-				{
-					ResetMapTile();
-				}
-			});
+			StartCoroutine(DelayMoveDown(index, b.CurTile, count));
+			index++;
 		}
 	}
 
+	private int downCount = 0;
+	
+	IEnumerator DelayMoveDown(int index, Tile t, int count)
+	{
+		yield return new WaitForSeconds(FightManager.MoveDownDelay * index);
+		t.MoveDown(count,this, () =>
+		{
+			downCount--;
+			Log.Info(String.Format("move down end {0}",downCount));
+			if (downCount == 0)
+			{
+				StartCoroutine(DelayResetMapTile());
+			}
+		});
+	}
+
+	IEnumerator DelayResetMapTile()
+	{
+		yield return new WaitForSeconds(FightManager.ResetMapDelay);
+		ResetMapTile();
+	}
+	
 	int FindDownCount(Block b)
 	{
 		int downCount = 0;
